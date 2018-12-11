@@ -1,0 +1,88 @@
+body{
+    background-color:gray ;
+}
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color:gray ;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    border: black solid 2px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    width: 28%;
+    margin: 0 2%;
+    background-color: red;
+}
+a{
+    display : inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    width: 100%
+}
+@media screen and (min-width: 700px){
+    article{
+        border: white solid 2px;
+        border-radius: 15px;
+        margin-top: 5%;
+    }
+    img .Portrait{
+        width: 100%;
+        max-width: 215px;
+        max-height: 290px;
+    }
+    .Realisateur{
+        display: inline-block;
+        max-width: 100%;
+    }
+    section{
+        margin-left: auto;
+        margin-top: 70px;
+    }
+    figure{
+        display: inline-block;
+        max-width: 25%;
+        margin: 2%;
+    }
+    figure img{
+        max-width: 100%;
+    }
+    .portrait{
+        max-width: 215px;
+        max-height: 290px;
+    }
+    .Filmographie{
+        display: inline-block;
+        max-width: 30%;
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    article{
+        margin-top: 10%;
+    }
+    section{
+        margin-left: auto;
+        margin-top: 70px;
+    }
+    img {
+
+        max-width: 215px;
+        max-height: 290px;
+    }
+    h1{
+        color : green;
+    }
+}
